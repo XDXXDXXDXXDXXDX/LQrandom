@@ -35,3 +35,31 @@ table, .go-center {
     background-color: #fff;
     outline: none;
 }
+
+.study {
+    position: absolute;
+    /* width: 100%; */
+    background-color: #000;
+    padding: 50px;
+    display: none;
+    border: 10px double #ff0000;
+}
+
+img {
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+#show-tip {
+    cursor: pointer;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+#close-tip {
+    cursor: pointer;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+}

@@ -18,6 +18,14 @@
     });
 })();
 
+document.getElementById('show-tip').addEventListener('click', () => {
+    document.getElementsByClassName('study')[0].style.display = "block";
+}); 
+
+document.getElementById('close-tip').addEventListener('click', () => {
+    document.getElementsByClassName('study')[0].style.display = "none";
+}); 
+
 //生成一组个人信息
 function newProfile() {
     let proContainer = [];
