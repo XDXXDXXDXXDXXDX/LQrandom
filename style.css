@@ -1,0 +1,37 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+td {
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+table, .go-center {
+    margin: 0 auto;
+}
+
+.profile, .value{
+    padding: 20px;
+    border: 3px solid #00b7ff;
+    background-color: #f9ead6;
+}
+
+.go-center {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+
+#create1, #create2 {
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    border-radius: 10px;
+    background-color: #fff;
+    outline: none;
+}
