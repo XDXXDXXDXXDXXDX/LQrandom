@@ -1,6 +1,6 @@
 (function creat1() {
     let td = document.getElementsByTagName('td');
-    document.getElementById('create1').addEventListener('click', () => {
+    document.getElementById('create1').addEventListener('click', function(){
         let proContainer = newProfile();
         for(let i = 0; i < 50; i++) {
             td[i].innerHTML = proContainer[i];
@@ -10,7 +10,7 @@
 
 (function creat2() {
     let td = document.getElementsByTagName('td');
-    document.getElementById('create2').addEventListener('click', () => {
+    document.getElementById('create2').addEventListener('click', function(){
         let varArr = newValue();
         for(let i = 50; i < 100; i++) {
             td[i].innerHTML = varArr[i - 50];
@@ -18,11 +18,11 @@
     });
 })();
 
-document.getElementById('show-tip').addEventListener('click', () => {
+document.getElementById('show-tip').addEventListener('click', function(){
     document.getElementsByClassName('study')[0].style.display = "block";
 }); 
 
-document.getElementById('close-tip').addEventListener('click', () => {
+document.getElementById('close-tip').addEventListener('click', function(){
     document.getElementsByClassName('study')[0].style.display = "none";
 }); 
 
